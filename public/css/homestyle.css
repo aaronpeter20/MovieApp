@@ -1,0 +1,55 @@
+body{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/043/555/242/non_2x/realistic-3d-cinema-film-strip-in-perspective-isolated-on-blue-background-template-cinema-festival-movie-design-cinema-film-strip-for-ad-poster-presentation-show-brochure-banner-or-flyer-vector.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.navbar-brand {
+    color: #070606;
+    font-weight: bold;
+}
+.nav-link {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+.nav-link:hover {
+    color: #adb5bd;
+}
+
+.nav-link{
+    color: #110d0d;
+    font-weight: bold;
+    
+}
+
+.row {
+    margin: 20px auto;
+    max-width: 1200px;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.card-title {
+    font-size: 1.5rem;
+    color: #343a40;
+    font-weight: bold;
+}
+.card-text {
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+
+@media (max-width: 768px) {
+    .row {
+        margin: 10px auto;
+    }
+}
